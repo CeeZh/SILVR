@@ -18,7 +18,7 @@
 
 
 ## Updates
-- [05/28/2025] SILVR Code release. 
+- [05/28/2025] Code Release. 
 
 
 ## Introduction
@@ -38,15 +38,6 @@ We believe the simple yet effective design of SILVR will enable the research com
 
 <div align="center">
 <img src="assets/arch.png" alt="SILVR Architecture" width="600">
-</div>
-
-## Performance
-<div align="center">
-<img src="assets/performance.png" alt="Main Performance" width="600">
-</div>
-
-<div align="center">
-<img src="assets/performance_2.png" alt="Additional Performance" width="300">
 </div>
 
 
@@ -126,6 +117,15 @@ By default, we use API services for LLM inference. If you want to use local LLMs
 - `--num_examples_to_run`: how many examples to run.
 - `--single_process`: disable multi-processing.
 
+
+## Performance
+<div align="center">
+<img src="assets/performance.png" alt="Main Performance" width="600">
+</div>
+
+<div align="center">
+<img src="assets/performance_2.png" alt="Additional Performance" width="300">
+</div>
 
 
 ## Visualization
