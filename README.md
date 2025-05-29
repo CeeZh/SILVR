@@ -58,13 +58,13 @@ SILVR/
 ├── data/           # Directory for input data
 │   ├── videomme/
 │   |  ├── subtitles/
-│   |     ├── _8lBR0E_Tx8.srt / 
+│   |     ├── _8lBR0E_Tx8.srt
 │   |     ├── ... 
-│   |     └── ZXoaMa6jlO4.srt / 
+│   |     └── ZXoaMa6jlO4.srt
 │   |  ├── captions_1s/
-│   |     ├── _8lBR0E_Tx8.txt / 
+│   |     ├── _8lBR0E_Tx8.txt
 │   |     ├── ... 
-│   |     └── ZXoaMa6jlO4.txt / 
+│   |     └── ZXoaMa6jlO4.txt
 │   |  ├── captions_8s/
 │   |  ├── captions_64s/
 │   |  ├── captions_64s_qwen7b/
