@@ -118,16 +118,6 @@ By default, we use API services for LLM inference. If you want to use local LLMs
 - `--single_process`: disable multi-processing.
 
 
-## Performance
-<div align="center">
-<img src="assets/performance.png" alt="Main Performance" width="600">
-</div>
-
-<div align="center">
-<img src="assets/performance_2.png" alt="Additional Performance" width="300">
-</div>
-
-
 ## Visualization
 <div align="center">
 <img src="assets/q1.png" alt="visulization" width="600">
