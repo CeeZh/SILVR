@@ -2,7 +2,7 @@
 <div align="center">
 
 
-<h2><a href="TODO">SILVR : A Simple Language-based Video Reasoning Framework</a></h2>
+<h2><a href="TODO">SiLVR : A Simple Language-based Video Reasoning Framework</a></h2>
 
 [Ce Zhang](https://ceezh.github.io/)\*, [Yan-Bo Lin](https://genjib.github.io/)\*, [Ziyang Wang](https://ziyangw2000.github.io/), [Mohit Bansal](https://www.cs.unc.edu/~mbansal/), [Gedas Bertasius](https://www.gedasbertasius.com/)
 <p align="center">
@@ -22,22 +22,22 @@
 
 
 ## Introduction
-We present **SILVR**, a **Si**mple **L**anguage-based **V**ideo **R**easoning framework that decomposes complex video understanding into two stages.
+We present **SiLVR**, a **Si**mple **L**anguage-based **V**ideo **R**easoning framework that decomposes complex video understanding into two stages.
 - In the first stage, we convert raw videos into rich language-based descriptions. Specifically, we densely sample short clips from the input videos and use a pre-trained visual captioner (e.g., NVILA) to extract captions for each clip. Additionally, we use automatic speech recognition (ASR) tools to convert speech into language descriptions. 
 - In the second stage, we feed the rich language descriptions into a strong reasoning LLM (e.g. DeepSeek-R1) to solve complex video-language understanding tasks.
 
-SILVR offers several benefits:
-- **Simplicity**: SILVR does not require complex RL-based optimization or specialized modules for different tasks.
-- **Generalizability**: SILVR can be applied to a wide range of complex video-language tasks without task-specific fine-tuning.
-- **Modularity**: SILVR's modular design enables seamless use of powerful visual captioning models and strong reasoning LLMs.
-- **Flexibility**: SILVR supports plug-and-play integration of different captioning models, speech recognition models, and LLMs. An overview of our method is illustrated in Figure 2.
-- **Strong Performance**: SILVR achieves state-of-the-art results on multiple VideoQA benchmarks, including Video-MME (long), Video-MMMU (comprehension), Video-MMLU (quiz), CGBench, and EgoLife.
+SiLVR offers several benefits:
+- **Simplicity**: SiLVR does not require complex RL-based optimization or specialized modules for different tasks.
+- **Generalizability**: SiLVR can be applied to a wide range of complex video-language tasks without task-specific fine-tuning.
+- **Modularity**: SiLVR's modular design enables seamless use of powerful visual captioning models and strong reasoning LLMs.
+- **Flexibility**: SiLVR supports plug-and-play integration of different captioning models, speech recognition models, and LLMs. An overview of our method is illustrated in Figure 2.
+- **Strong Performance**: SiLVR achieves state-of-the-art results on multiple VideoQA benchmarks, including Video-MME (long), Video-MMMU (comprehension), Video-MMLU (quiz), CGBench, and EgoLife.
 
 
-We believe the simple yet effective design of SILVR will enable the research community to build on our work and use our simple framework as a baseline to develop even more powerful video-language reasoning models.
+We believe the simple yet effective design of SiLVR will enable the research community to build on our work and use our simple framework as a baseline to develop even more powerful video-language reasoning models.
 
 <div align="center">
-<img src="assets/arch.png" alt="SILVR Architecture" width="800">
+<img src="assets/arch.png" alt="SiLVR Architecture" width="800">
 </div>
 
 
