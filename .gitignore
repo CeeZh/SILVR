@@ -1,5 +1,3 @@
-# Exclude specific files and directories
-script.py
 
 # Exclude data and output directories
 data/
