@@ -7,7 +7,7 @@
 [Ce Zhang](https://ceezh.github.io/)\*, [Yan-Bo Lin](https://genjib.github.io/)\*, [Ziyang Wang](https://ziyangw2000.github.io/), [Mohit Bansal](https://www.cs.unc.edu/~mbansal/), [Gedas Bertasius](https://www.gedasbertasius.com/)
 <p align="center">
         &nbsp&nbsp <a href="TODO">Paper</a> &nbsp&nbsp | 
-        &nbsp&nbsp  <a href="TODO">Website</a> &nbsp&nbsp
+        &nbsp&nbsp  <a href="https://sites.google.com/cs.unc.edu/silvr">Website</a> &nbsp&nbsp
 <br>
 
 </p>
@@ -37,7 +37,7 @@ SILVR offers several benefits:
 We believe the simple yet effective design of SILVR will enable the research community to build on our work and use our simple framework as a baseline to develop even more powerful video-language reasoning models.
 
 <div align="center">
-<img src="assets/arch.png" alt="SILVR Architecture" width="600">
+<img src="assets/arch.png" alt="SILVR Architecture" width="800">
 </div>
 
 
@@ -120,19 +120,19 @@ By default, we use API services for LLM inference. If you want to use local LLMs
 
 ## Visualization
 <div align="center">
-<img src="assets/q1.png" alt="visulization" width="600">
+<img src="assets/q1.png" alt="visulization" width="800">
 </div>
 
 <div align="center">
-<img src="assets/q2.png" alt="visulization" width="600">
+<img src="assets/q2.png" alt="visulization" width="800">
 </div>
 
 <div align="center">
-<img src="assets/q3.png" alt="visulization" width="600">
+<img src="assets/q3.png" alt="visulization" width="800">
 </div>
 
 <div align="center">
-<img src="assets/q4.png" alt="visulization" width="600">
+<img src="assets/q4.png" alt="visulization" width="800">
 </div>
 
 ## Citation
