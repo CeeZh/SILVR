@@ -108,7 +108,7 @@ Please prepare the following API keys:
 - `$OPENAI_API_KEY`: OpenAI API key. This is only needed for MMVU which needs GPT-4 for open-ended question evaluation.
 
 ### Inference and Evaluation
-We organized inference and evaluation scripts for all datasets in `./scripts`. The datasets include CGBench, CinePile, EgoLife, HourVideo, MMVU, MMWorld, Video-MME, Video-MMLU, Video-MMMU.
+We organized inference and evaluation scripts for all datasets in [`./scripts`](https://github.com/CeeZh/SILVR/tree/main/scripts). The datasets include CGBench, CinePile, EgoLife, HourVideo, MMVU, MMWorld, Video-MME, Video-MMLU, Video-MMMU.
 
 ### Use Local LLMs for Inference
 By default, we use API services for LLM inference. If you want to use local LLMs, make sure to set `--single_process` to disable multi-processing.
