@@ -139,13 +139,10 @@ By default, we use API services for LLM inference. If you want to use local LLMs
 If our work is useful to your research, please consider citing it.
 
 ```BibTeX
-@misc{zhang2025silvrsimplelanguagebasedvideo,
-      title={SiLVR: A Simple Language-based Video Reasoning Framework}, 
-      author={Ce Zhang and Yan-Bo Lin and Ziyang Wang and Mohit Bansal and Gedas Bertasius},
-      year={2025},
-      eprint={2505.24869},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2505.24869}, 
+@article{zhang2025silvr,
+  title={SiLVR: A Simple Language-based Video Reasoning Framework},
+  author={Zhang, Ce and Lin, Yan-Bo and Wang, Ziyang and Bansal, Mohit and Bertasius, Gedas},
+  year={2025},
+  journal={arXiv preprint arXiv:2505.24869},
 }
 ```
